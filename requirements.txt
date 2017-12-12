@@ -1,0 +1,3 @@
+https://github.com/zopefoundation/z3c.autoinclude/archive/pip.tar.gz#egg=z3c.autoinclude
+https://github.com/MrTango/click/archive/master.tar.gz#egg=Click
+https://github.com/plone/plonecli/archive/datakurre-zopectl.tar.gz#egg=plonecli
