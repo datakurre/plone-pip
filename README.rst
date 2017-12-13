@@ -16,3 +16,12 @@
 
    # serve Plone
    env/bin/plonecli instance -C zope.conf fg
+
+   # installing existing add-on
+   env/bin/pip install collective.easyform
+
+   # developing a new add-on
+   source env/bin/activate
+   plone-cli create addon my.addon
+   cd my.addon
+   python setup.py develop
