@@ -19,9 +19,10 @@
 
    # installing existing add-on
    env/bin/pip install collective.easyform
+   env/bin/pip install plone.app.imagecropping
 
    # developing a new add-on
    source env/bin/activate
-   plone-cli create addon my.addon
+   plonecli create addon my.addon
    cd my.addon
    python setup.py develop
